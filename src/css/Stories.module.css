@@ -1,0 +1,39 @@
+.containerStories{
+    width: 61.4rem;
+    height: 118px;
+    border: 1px solid var(--very-light-gray);
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-left: 18px;
+}
+
+.storie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundoStories{
+    background-image: url('../assets/stories/story-circle.svg');
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeStories {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--very-dark-gray);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 76px;
+    margin-top: 6px;
+}

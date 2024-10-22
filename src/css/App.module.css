@@ -1,6 +1,12 @@
+.container {
+    max-width: 960px;   /* Limita o container a 935px */
+    margin: 0 auto;     /* Centraliza o container na tela */
+    width: 100%;
+}
+
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: start;
     padding-top: 3.4rem;
 }

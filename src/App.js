@@ -5,13 +5,13 @@ import './global.css'
 import styles from './css/App.module.css';
 function App() {
   return (
-    < >
+    <section className={styles.container}>
       <NavBar />
       <div className={styles.flex}>
         <Body />
         <Sidebar />
       </div>
-    </>
+    </section>
   );
 }
 

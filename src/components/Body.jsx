@@ -1,7 +1,8 @@
+import Storires from './Stories'
 const Body = () => {
     return(
         <body>
-            Body
+            <Storires />
         </body>
     )
 }
