@@ -1,0 +1,11 @@
+.sobre, .direitosReservados{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var( --light-gray);
+    width: 300px;
+}
+
+.sobre {
+    margin-top: 33px;
+    margin-bottom: 18px;
+}

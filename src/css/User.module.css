@@ -1,0 +1,18 @@
+.containerUser {
+    display: flex;
+    align-items: center;
+}
+
+.fotoPerfil {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-right: 17px;
+}
+
+.nomeUser{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var( --very-dark-gray);
+    margin-right: 7px;
+}
