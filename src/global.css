@@ -1,0 +1,28 @@
+:root {
+ --white: #fff;
+ --off-white: #fafafa;
+ --very-light-gray: #dbdbdb;
+ --light-gray: #c7c7c7;
+ --medium-gray: #8e8e8e;
+ --dark-gray: #979797;
+ --very-dark-gray: #262626;
+}
+
+html {
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--off-white);
+    -webkit-font-smothing: antialiased;
+}
+
+body, input {
+    font-family: 'Roboto', sans-serif;
+}
