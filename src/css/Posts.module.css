@@ -1,0 +1,72 @@
+.container{
+    margin-bottom: 16px;
+}
+.containerPost{
+    width: 61.4rem;
+    border: 1px solid var(--very-light-gray);
+    border-radius: 3px;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+}
+
+.imgPost {
+    width: 100%;
+}
+
+
+.containerUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-bottom: 14px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.containerIcons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    margin: 10px 0;
+}
+
+.icons{
+    display: flex;
+    gap: 13px;
+}
+
+.icons img {
+    width: 22px;
+    height: 22px;
+}
+
+.iconVector {
+    width: 12.38px;
+    height: 17.88px;
+}
+
+.containerComment{
+    display: flex;
+    align-items: center;
+    padding-left: 1.7rem;
+    gap: 11px;
+}
+
+.containerComment img{
+    width: 20px;
+    height: 20px;
+}
+
+.textLike{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
