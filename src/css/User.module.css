@@ -9,6 +9,7 @@
     border-radius: 28px;
     margin-right: 17px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .nomeUser{
@@ -16,4 +17,8 @@
     font-weight: 500;
     color: var( --very-dark-gray);
     margin-right: 7px;
+}
+
+.iconFill {
+    cursor: pointer;
 }

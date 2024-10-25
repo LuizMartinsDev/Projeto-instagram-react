@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.iconHeart{
+    cursor: pointer;
+}
+
 
 .containerUser{
     display: flex;
@@ -51,6 +55,7 @@
 .iconVector {
     width: 12.38px;
     height: 17.88px;
+    cursor: pointer;
 }
 
 .containerComment{
